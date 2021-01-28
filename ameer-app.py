@@ -10,6 +10,7 @@ auth.set_access_token(access_token, secret_access_token)
 api = tweepy.API(auth)
 print('Everything is fine')
 
+
 import time
 while True:
   user = api.get_user('Ameen91741779')
